@@ -20,10 +20,10 @@ namespace Test
 
         private void btnCal_Click(object sender, EventArgs e)
         {
-            
+
             graf1.Series.Clear();
             graf2.Series.Clear();
-            
+
 
             LB_Valor.Items.Clear();
 
@@ -51,15 +51,22 @@ namespace Test
             graf1.Series["Senoide"].Points.AddXY(0, A0);
             graf1.Series["Ponto"].Points.AddXY(0, A0);
             graf2.Series["Barra"].Points.AddXY(0, A0);
-            LB_Valor.Items.Add("0º N = "+A0.ToString());
+            LB_Valor.Items.Add("0º N = " + A0.ToString());
 
-            for (int i = 1; i < N+1; i++)
+            for (int i = 1; i < N + 1; i++)
             {
                 double An = ((2 * A) / (i * Math.PI)) * Math.Sin((i * Math.PI * TAL) / P);
                 graf1.Series["Senoide"].Points.AddXY(i, An);
                 graf1.Series["Ponto"].Points.AddXY(i, An);
                 graf2.Series["Barra"].Points.AddXY(i, An);
-                LB_Valor.Items.Add(i + "º N = " + (Math.Round(An,2)).ToString());
+                if (Math.Round(An, 2) == 0)
+                {
+                    LB_Valor.Items.Add(i + "º N = " + (Math.Round(An, 2)).ToString());
+                }
+                else
+                {
+                    LB_Valor.Items.Add(i + "º N = " + (2 * A).ToString() + "/" + i + "π");
+                }
 
             }
 
@@ -88,13 +95,7 @@ namespace Test
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DialogResult resultado = MessageBox.Show("Deseja realmente sair?", "Confirmação", MessageBoxButtons.YesNo);
-
-            
-            if (resultado == DialogResult.Yes)
-            {
-                this.Close();
-            }
+            this.Close();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
