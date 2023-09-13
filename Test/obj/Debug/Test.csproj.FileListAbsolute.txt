@@ -1,0 +1,10 @@
+C:\Users\nicho\OneDrive\Área de Trabalho\Trabalhos\HUGO\Test\Test\bin\Debug\Test.exe.config
+C:\Users\nicho\OneDrive\Área de Trabalho\Trabalhos\HUGO\Test\Test\bin\Debug\Test.exe
+C:\Users\nicho\OneDrive\Área de Trabalho\Trabalhos\HUGO\Test\Test\bin\Debug\Test.pdb
+C:\Users\nicho\OneDrive\Área de Trabalho\Trabalhos\HUGO\Test\Test\obj\Debug\Test.csproj.AssemblyReference.cache
+C:\Users\nicho\OneDrive\Área de Trabalho\Trabalhos\HUGO\Test\Test\obj\Debug\Test.Form1.resources
+C:\Users\nicho\OneDrive\Área de Trabalho\Trabalhos\HUGO\Test\Test\obj\Debug\Test.Properties.Resources.resources
+C:\Users\nicho\OneDrive\Área de Trabalho\Trabalhos\HUGO\Test\Test\obj\Debug\Test.csproj.GenerateResource.cache
+C:\Users\nicho\OneDrive\Área de Trabalho\Trabalhos\HUGO\Test\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\nicho\OneDrive\Área de Trabalho\Trabalhos\HUGO\Test\Test\obj\Debug\Test.exe
+C:\Users\nicho\OneDrive\Área de Trabalho\Trabalhos\HUGO\Test\Test\obj\Debug\Test.pdb
