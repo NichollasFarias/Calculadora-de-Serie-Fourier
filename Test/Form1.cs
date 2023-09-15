@@ -65,7 +65,15 @@ namespace Test
                 }
                 else
                 {
-                    LB_Valor.Items.Add(i + "º N = " + (2 * A).ToString() + "/" + i + "π");
+                    if(Math.Round(An,2) < 0)
+                    {
+                        LB_Valor.Items.Add(i + "º N = -" + (2 * A).ToString() + "/" + i + "π");
+                    }
+                    else
+                    {
+                        LB_Valor.Items.Add(i + "º N = " + (2 * A).ToString() + "/" + i + "π");
+                    }
+                    
                 }
 
             }
