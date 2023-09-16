@@ -8,3 +8,13 @@ C:\Users\nicho\OneDrive\Área de Trabalho\Trabalhos\HUGO\Test\Test\obj\Debug\Tes
 C:\Users\nicho\OneDrive\Área de Trabalho\Trabalhos\HUGO\Test\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
 C:\Users\nicho\OneDrive\Área de Trabalho\Trabalhos\HUGO\Test\Test\obj\Debug\Test.exe
 C:\Users\nicho\OneDrive\Área de Trabalho\Trabalhos\HUGO\Test\Test\obj\Debug\Test.pdb
+D:\Test\Test\bin\Debug\Test.exe.config
+D:\Test\Test\bin\Debug\Test.exe
+D:\Test\Test\bin\Debug\Test.pdb
+D:\Test\Test\obj\Debug\Test.csproj.AssemblyReference.cache
+D:\Test\Test\obj\Debug\Test.Form1.resources
+D:\Test\Test\obj\Debug\Test.Properties.Resources.resources
+D:\Test\Test\obj\Debug\Test.csproj.GenerateResource.cache
+D:\Test\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+D:\Test\Test\obj\Debug\Test.exe
+D:\Test\Test\obj\Debug\Test.pdb

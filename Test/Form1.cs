@@ -39,14 +39,14 @@ namespace Test
             graf2.Series["Barra"].ChartType = SeriesChartType.Column;
 
 
-            int A = int.Parse(TB_A.Text);
-            int TAL = int.Parse(TB_T.Text);
-            int P = int.Parse(TB_P.Text);
+            double A = double.Parse(TB_A.Text);
+            double TAL = double.Parse(TB_T.Text);
+            double P = double.Parse(TB_P.Text);
 
             int N = int.Parse(TB_N.Text);
 
 
-            int A0 = (A * TAL) / P;
+            double A0 = (A * TAL) / P;
 
             graf1.Series["Senoide"].Points.AddXY(0, A0);
             graf1.Series["Ponto"].Points.AddXY(0, A0);

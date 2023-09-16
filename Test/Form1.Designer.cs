@@ -185,27 +185,27 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(24, 357);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(138, 38);
+            this.label6.Size = new System.Drawing.Size(213, 38);
             this.label6.TabIndex = 2;
-            this.label6.Text = "Período:";
+            this.label6.Text = "Período (ms):";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(24, 216);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(126, 38);
+            this.label5.Size = new System.Drawing.Size(179, 38);
             this.label5.TabIndex = 1;
-            this.label5.Text = "Tau (τ):";
+            this.label5.Text = "Tau τ (ms):";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(22, 75);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(176, 38);
+            this.label4.Size = new System.Drawing.Size(228, 38);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Amplitude:";
+            this.label4.Text = "Amplitude (V):";
             // 
             // button1
             // 
@@ -315,7 +315,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(1484, 761);
+            this.ClientSize = new System.Drawing.Size(1470, 735);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.LB_Valor);
             this.Controls.Add(this.button3);
@@ -329,6 +329,7 @@
             this.Controls.Add(this.btnCal);
             this.Controls.Add(this.graf1);
             this.ForeColor = System.Drawing.Color.Black;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
